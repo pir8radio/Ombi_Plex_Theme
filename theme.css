@@ -583,10 +583,24 @@ small.important {
 	background-color: var(--button-color) !important
 }
 
+.mat-flat-button.mat-warn, .mat-raised-button.mat-warn, .mat-fab.mat-warn, .mat-mini-fab.mat-warn {
+    margin: 5px;
+}
+
 .mat-raised-button:not([class*=mat-elevation-z]):not(.mat-raised-button.mat-warn):not(.viewon-btn.plex):not(.mat-raised-button.mat-error) {
 	box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 	background: var(--button-color);
 	border: 1px solid var(--button-color);
+}
+
+.buttons .mat-raised-button, .mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent {
+    margin-right: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#filterProcessing, #filterAll, #filterPending, #filterAvailable, #filterDenied {
+	margin: 3px;
 }
 
 .mat-raised-button:not([class*=mat-elevation-z]):not(.mat-raised-button.mat-warn):not(.viewon-btn.plex):not(.mat-raised-button.mat-error):hover {
