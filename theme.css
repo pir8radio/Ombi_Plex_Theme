@@ -1,10 +1,6 @@
 /* Plex Theme */
+
 :root {
-	/* 
-     --main-bg-color: url(/resources/blur-noise.png), url(/resources/preset-light2.png) center center/cover no-repeat fixed;
-     --modal-bg-color: url(/resources/blur-noise.png), url(/resources/preset-dark2.png) center center/cover no-repeat fixed;
-     --main-bg-color: url(/resources/blur-noise.png) repeat scroll 0% 0%, radial-gradient(circle at 0% 100%, rgba(54, 66, 84, 0.55) 0%, rgba(54, 66, 84, 0.043) 70%, rgba(54, 66, 84, 0) 80%), radial-gradient(circle at 100% 100%, rgba(113, 135, 153, 0.55) 0%, rgba(113, 135, 153, 0.043) 70%, rgba(113, 135, 153, 0) 80%), radial-gradient(circle at 100% 0%, rgba(54, 66, 84, 0.55) 0%, rgba(54, 66, 84, 0.043) 70%, rgba(54, 66, 84, 0) 80%), radial-gradient(circle at 0% 0%, rgba(91, 114, 135, 0.55) 0%, rgba(91, 114, 135, 0.043) 70%, rgba(91, 114, 135, 0) 80%), rgb(0, 0, 0) center center/cover no-repeat fixed;
-     */
 	--main-bg-color: radial-gradient(circle farthest-side at 0% 100%, rgb(47, 47, 47) 0%, rgba(47, 47, 47, 0) 100%), radial-gradient(circle farthest-side at 100% 100%, rgb(63, 63, 63) 0%, rgba(63, 63, 63, 0) 100%), radial-gradient(circle farthest-side at 100% 0%, rgb(76, 76, 76) 0%, rgba(76, 76, 76, 0) 100%), radial-gradient(circle farthest-side at 0% 0%, rgb(58, 58, 58) 0%, rgba(58, 58, 58, 0) 100%), black center center/cover no-repeat fixed;
 	--modal-bg-color: #282828;
 	--modal-header-color: #323232;
@@ -38,7 +34,6 @@
 
 	.plex-btn {
 		background-color: #F5A623;
-		/* Plex orange */
 		color: white;
 		border: none;
 		padding: 10px 20px;
@@ -50,7 +45,6 @@
 
 	.plex-btn:hover {
 		background-color: #d4891c;
-		/* Darker Plex orange for hover effect */
 	}
 
 
@@ -59,7 +53,6 @@
 	/* Servarr apps + Bazarr*/
 	--plex-poster-unwatched: #e5a00d;
 	--petio-spinner: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);
-	/* Made with https://codepen.io/jsm91/embed/ZEEawyZ */
 	--gitea-color-primary-dark-4: 255,
 	193,
 	7;
@@ -348,7 +341,6 @@ div[_ngcontent-ng-c244067074] {
 /* Plex-Themed Discover Filter Buttons Group */
 .discover-filter-buttons-group {
 	border: none !important;
-	/* Plex gold 1px border */
 	background: none !important;
 	margin-bottom: 10px;
 	margin-right: 30px;
@@ -356,86 +348,55 @@ div[_ngcontent-ng-c244067074] {
 
 .discover-filter-buttons-group:hover {}
 
-/* Adjust each button within the group */
 .discover-filter-button {
 	font-size: 12px;
-	/* Smaller font size */
 	padding: 5px 10px;
-	/* Balanced padding */
 	min-width: 60px;
-	/* Set minimum width */
 	height: 20px;
-	/* Adjust button height */
 	background-color: transparent;
-	/* Remove inner solid gold button */
 	border: 1px solid rgba(199, 199, 199, 0.8) !important;
-	/* Outer 1px border */
 	border-radius: 20px;
-	/* Rounded button design */
 	color: var(--text-hover);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
-	/* Smooth hover effect */
 }
 
 .discover-filter-button:hover {
 	border-color: rgba(199, 199, 199, 1) !important;
-	/* Brighten border on hover */
 	color: #fff;
-	/* Ensure text is readable */
 }
 
-/* Adjust the inner button element */
 .mat-button-toggle-button {
 	font-size: inherit;
-	/* Inherit font size from parent */
 	padding: 0;
-	/* Remove padding around the text */
 	height: auto;
-	/* Let the button size itself dynamically */
 	min-width: inherit;
-	/* Match parent width */
 	border: none;
-	/* Remove any border */
 	background-color: transparent;
-	/* Ensure no persistent background */
 	color: inherit;
-	/* Inherit color from parent */
 	box-shadow: none;
-	/* Remove any shadow */
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* Center text */
 	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .mat-button-toggle-button:hover {
 	background-color: transparent;
-	/* No inner hover effect */
 	color: inherit;
-	/* Keep the text consistent */
 }
 
-/* Optional: Adjust the label inside the buttons */
 .mat-button-toggle-label-content {
 	font-size: 12px;
-	/* Keep smaller text size */
 	margin: 0;
-	/* Remove any margin that causes misalignment */
 	padding: 0;
-	/* Remove extra padding */
 	color: inherit;
-	/* Ensure text matches button state */
 	position: relative;
-	/* Ensure proper alignment */
 	top: 0;
-	/* No vertical offset */
 }
 
-/* Remove Ripple Effect (Optional) */
 .mat-button-toggle-ripple {
 	display: none;
 	/* Remove ripple effect if not desired */
@@ -833,13 +794,11 @@ tr.mat-header-row {
 
 .label {
 	position: relative;
-	/* Keeps the element in the flow */
 	left: -0px;
 	transform: translateX(-50%);
 	white-space: nowrap;
 	text-align: center;
 	font-size: clamp(10px, 1vw, 15px) !important;
-	/* Min size: 12px, Max size: 24px */
 }
 
 #addFabBtn {
@@ -899,25 +858,18 @@ hr {
 	stroke: rgb(var(--accent-color))
 }
 
-/* Parent container to center the spinner */
 .loading-spinner {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	/* Full viewport height */
 	width: 100vw;
-	/* Full viewport width */
 	background-color: rgba(0, 0, 0, 0.5);
-	/* Optional: Semi-transparent background */
 	position: fixed;
-	/* Ensure it stays fixed in the viewport */
 	top: 0;
 	left: 0;
 	z-index: 1000;
-	/* Ensure it appears above other content */
 }
-
 
 .alert-info {
 	background: var(--transparency-light-25) !important;
@@ -925,31 +877,10 @@ hr {
 	color: var(--text-hover) !important
 }
 
-#streamingContainer {
-	display: none;
-}
-
-.streaming-on {
-	display: none;
-}
-
 #nav-adminDonate {
 	display: none;
 }
 
-#nav-openMobile {
-	display: none !important;
-}
-
 #nav-featureSuggestion {
 	display: none !important;
-}
-
-#sign-in {
-	display: none !important;
-}
-
-/* Nav Bar */
-.sidenav-container .sidenav .mat-toolbar.application-name {
-	content: url("https://notallmine.net/images/nam_white.png");
 }
