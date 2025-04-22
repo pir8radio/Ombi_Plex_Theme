@@ -304,7 +304,7 @@ a:hover {
 
 .sidenav-container .sidenav .mat-list-base .mat-list-item .mat-list-item-ripple,
 .sidenav-container .sidenav.mat-list-base .mat-list-option .mat-list-item-ripple {
-	display: none !important
+	display: none !important;
 }
 
 .sidenav-container .sidenav .mat-nav-list .mat-list-item:focus,
@@ -406,6 +406,10 @@ div[_ngcontent-ng-c244067074] {
 	color: var(--text)
 }
 
+.middle .middle-show {
+	top: 50% !important;
+}
+
 .small-middle-container [div*="_ngcontent-"] {
 	margin: auto;
 	width: 100% !important
@@ -496,9 +500,8 @@ div[_ngcontent-ng-c244067074] {
 }
 
 .ombi-card .button-request-container {
-	position: relative;
+	position: absolute;
 	width: 100%;
-	margin: -40px 0 0 !important;
 	opacity: 0;
 	transition: .3s ease
 }
@@ -573,7 +576,6 @@ small.important {
 	box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 	background: var(--button-color);
 	border: 1px solid var(--button-color);
-	margin: 3px;
 }
 
 .mat-raised-button:not([class*=mat-elevation-z]):not(.mat-raised-button.mat-warn):not(.viewon-btn.plex):not(.mat-raised-button.mat-error):hover {
