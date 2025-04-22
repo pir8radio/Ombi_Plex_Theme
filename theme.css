@@ -406,7 +406,7 @@ div[_ngcontent-ng-c244067074] {
 	color: var(--text)
 }
 
-.middle .middle-show {
+.middle, .middle-show {
 	top: 50% !important;
 }
 
