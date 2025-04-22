@@ -7,7 +7,7 @@ To apply this theme in Ombi, follow these steps:
 1. Navigate to `Ombi > Settings > Configuration > Customization > Custom CSS`.
 2. Add the following line to import the theme from an external URL:
    ```css
-   @import url("https://holder/theme.css");
+   @import url("https://pir8radio.github.io/Ombi_Plex_Theme/theme.css");
    ```
 
 ## Additional Customizations
