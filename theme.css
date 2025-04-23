@@ -448,6 +448,10 @@ div[_ngcontent-ng-c244067074] {
 	flex-direction: row
 }
 
+.carousel-item {
+	margin-right: unset !important;
+}
+
 .p-carousel-item-active.p-carousel-item-start.p-carousel-item-end {
   display: flex;
   justify-content: center;
