@@ -9,7 +9,7 @@ To apply this theme in Ombi, follow these steps:
    ```css
    @import url("https://pir8radio.github.io/Ombi_Plex_Theme/theme.css");
    ```
-- Alternatively, you can copy all the text from the ```[theme.css](https://raw.githubusercontent.com/pir8radio/Ombi_Plex_Theme/refs/heads/main/theme.css)``` file and paste it into your Custom CSS settings area.
+- Alternatively, you can copy all the text from the [theme.css](https://raw.githubusercontent.com/pir8radio/Ombi_Plex_Theme/refs/heads/main/theme.css) file and paste it into your Custom CSS settings area.
 
 ## Additional Customizations
 
