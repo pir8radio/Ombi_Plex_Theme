@@ -50,7 +50,7 @@ This snippet disables local login options, allowing only Plex OAuth (Plex userna
 }
 ```
 
-### Hide the APP links, button, and QR code in the users profile:
+### Hide the Mobile APP links, button, and QR code in the users profile:
 ```
 div[style*="margin-left: 4%;"] {
     display: none;
