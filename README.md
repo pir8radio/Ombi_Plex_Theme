@@ -50,6 +50,13 @@ This snippet disables local login options, allowing only Plex OAuth (Plex userna
 }
 ```
 
+### Hide the APP links, button, and QR code in the users profile:
+```
+div[style*="margin-left: 4%;"] {
+    display: none;
+}
+```
+
 ### Use a Logo Instead of a Large Title in the Top Left
 This snippet replaces the large title in the top-left corner with a logo:
 ```css
