@@ -337,8 +337,6 @@ div[_ngcontent-ng-c244067074] {
 	padding-bottom: 12px;
 }
 
-
-/* Plex-Themed Discover Filter Buttons Group */
 .discover-filter-buttons-group {
 	border: none !important;
 	background: none !important;
@@ -448,17 +446,70 @@ div[_ngcontent-ng-c244067074] {
 	flex-direction: row
 }
 
+@media screen and (max-width: 560px) {
 .carousel-item {
-	margin-right: unset !important;
+	margin-right: unset;
+  }
 }
 
+.p-carousel-content {
+	position: relative;
+	padding: 0 60px;
+	overflow: hidden;
+}
+
+.p-carousel-prev,
+.p-carousel-next {
+	background-color: #1f1f1f;
+	color: #ffffff;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+.p-carousel-prev {
+	left: 10px;
+}
+
+.p-carousel-next {
+	right: 10px;
+}
+
+.p-carousel-prev:hover,
+.p-carousel-next:hover {
+	background-color: #e5a00d;
+	color: #121212;
+	box-shadow: 0 4px 10px rgba(229, 160, 13, 0.5);
+	transform: translateY(-50%) scale(1.1);
+}
+
+.p-carousel-prev:active,
+.p-carousel-next:active {
+	background-color: #ffcc66;
+	transform: translateY(-50%) scale(0.95);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 668px) {
 .p-carousel-item-active.p-carousel-item-start.p-carousel-item-end {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;;
+    }
 }
 
 .c .card-top-info {
